@@ -1,22 +1,35 @@
-# 《Redis 4.x Cookbook》Learning Notes
+# 《Modern Java in Action》Learning Notes
 
 
 
 ## 1. Profiles
 
-![Redis 4.x Cookbook](assets/cover.png)
+![book cover](assets/cover.png)
 
-|    **Title**    | **Redis 4.x Cookbook** [ISBN: 9781783988167] |
-| :-------------: | :----------------------------------------------------------: |
-|   **Author**    |               **Pengcheng Huang, Zuofei Wang**               |
-| **Publication** |                      **Packt, 2018.2**                       |
-|    **Pages**    |                           **374**                            |
+|    **Title**    |  **Modern Java in Action** [ISBN: 9781617293566]  |
+| :-------------: | :-----------------------------------------------: |
+|   **Author**    | **Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft** |
+| **Publication** |                **Manning, 2018.9**                |
+|    **Pages**    |                      **592**                      |
 
 > **Introduction**
 >
-> Redis is considered the world's most popular key-value store database. Its versatility and the wide variety of use cases it enables have made it a popular choice of database for many enterprises. Based on the latest version of Redis, this book provides both step-by-step recipes and relevant the background information required to utilize its features to the fullest. It covers everything from a basic understanding of Redis data types to advanced aspects of Redis high availability, clustering, administration, and troubleshooting. This book will be your great companion to master all aspects of Redis.
+> *Modern Java in Action* connects new features of the Java language with their practical applications. Using crystal-clear examples and careful attention to detail, this book respects your time. It will help you expand your existing knowledge of core Java as you master modern additions like the Streams API and the Java Module System, explore new approaches to concurrency, and learn how functional concepts can help you write code that’s easier to read and maintain.
 >
-> The book starts off by installing and configuring Redis for you to get started with ease. Moving on, all the data types and features of Redis are introduced in detail. Next, you will learn how to develop applications with Redis in Java, Python, and the Spring Boot web framework. You will also learn replication tasks, which will help you to troubleshoot replication issues. Furthermore, you will learn the steps that need to be undertaken to ensure high availability on your cluster and during production deployment. Toward the end of the book, you will learn the topmost tasks that will help you to troubleshoot your ecosystem efficiently, along with extending Redis by using different modules.
+> **what's inside**
+>
+> - Thoroughly revised edition of Manning’s bestselling *Java 8 in Action*
+> - New features in Java 8, Java 9, and beyond
+> - Streaming data and reactive programming
+> - The Java Module System
+>
+> **about the reader**
+>
+> Written for developers familiar with core Java features.
+>
+> **about the authors**
+>
+> **Raoul-Gabriel Urma** is CEO of Cambridge Spark. **Mario Fusco** is a senior software engineer at Red Hat. **Alan Mycroft** is a University of Cambridge computer science professor; he co-founded the Raspberry Pi Foundation.
 
 
 
@@ -24,19 +37,42 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finish reading)
 
-| No.  |        Chapter Title        |          Status          |
-| :--: | :-------------------------: | :----------------------: |
-| Ch01 | [Chapter Title1](./Ch01.md) |    :heavy_check_mark:    |
-| Ch02 | [Chapter Title2](./Ch02.md) | :hourglass_flowing_sand: |
-| Ch03 | [Chapter Title3](./Ch03.md) |        :no_entry:        |
+|      |                     Part I Fundamentals                      |                          |
+| :--: | :----------------------------------------------------------: | :----------------------: |
+| Ch01 |    [Java 8, 9, 10, and 11: what’s happening?](./Ch01.md)     |    :heavy_check_mark:    |
+| Ch02 |   [Passing code with behavior parameterization](./Ch02.md)   |    :heavy_check_mark:    |
+| Ch03 |               [Lambda expressions](./Ch03.md)                | :hourglass_flowing_sand: |
+|      |  **Part II Functional-style data processing with streams**   |                          |
+| Ch04 |               [Introducing streams](./Ch04.md)               |        :no_entry:        |
+| Ch05 |              [Working with streams](./Ch05.md)               |        :no_entry:        |
+| Ch06 |          [Collecting data with streams](./Ch06.md)           |        :no_entry:        |
+| Ch07 |    [Parallel data processing and performance](./Ch07.md)     |        :no_entry:        |
+|      | **Part III Effective programming with streams and lambdas**  |                          |
+| Ch08 |           [Collection API enhancements](./Ch08.md)           |        :no_entry:        |
+| Ch09 |       [Refactoring, testing, and debugging](./Ch09.md)       |        :no_entry:        |
+| Ch10 |     [Domain-specific languages using lambdas](./Ch10.md)     |        :no_entry:        |
+|      |                  **Part IV Everyday Java**                   |                          |
+| Ch11 | [Using Optional as a better alternative to null](./Ch11.md)  |        :no_entry:        |
+| Ch12 |              [New Date and Time API](./Ch12.md)              |        :no_entry:        |
+| Ch13 |                 [Default methods](./Ch13.md)                 |        :no_entry:        |
+| Ch14 |             [The Java Module System](./Ch14.md)              |        :no_entry:        |
+|      |             **Part V Enhanced Java concurrency**             |                          |
+| Ch15 | [Concepts behind CompletableFuture and reactive programming](./Ch15.md) |        :no_entry:        |
+| Ch16 | [CompletableFuture: composable asynchronous programming](./Ch16.md) |        :no_entry:        |
+| Ch17 |              [Reactive programming](./Ch17.md)               |        :no_entry:        |
+|      | **Part VI Functional programming and future Java evolution** |                          |
+| Ch18 |              [Thinking functionally](./Ch18.md)              |        :no_entry:        |
+| Ch19 |        [Functional programming techniques](./Ch19.md)        |        :no_entry:        |
+| Ch20 |  [Blending OOP and FP: Comparing Java and Scala](./Ch20.md)  |        :no_entry:        |
+| Ch21 |       [Conclusions and where next for Java](./Ch21.md)       |        :no_entry:        |
 
 
 
 Powershell script for generating markdown files in batch:
 
 ```powershell
-# Create 13 empty markdown files named Ch##.md:
-for($i=1; $i -le 13; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
+# Create 21 empty markdown files named Ch##.md:
+for($i=1; $i -le 21; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
 ```
 
  
