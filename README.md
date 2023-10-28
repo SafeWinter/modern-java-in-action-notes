@@ -43,9 +43,9 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | Ch02 |   [Passing code with behavior parameterization](./Ch02.md)   |    :heavy_check_mark:    |
 | Ch03 |               [Lambda expressions](./Ch03.md)                |    :heavy_check_mark:    |
 |      |  **Part II Functional-style data processing with streams**   |                          |
-| Ch04 |               [Introducing streams](./Ch04.md)               | :hourglass_flowing_sand: |
-| Ch05 |              [Working with streams](./Ch05.md)               |        :no_entry:        |
-| Ch06 |          [Collecting data with streams](./Ch06.md)           |        :no_entry:        |
+| Ch04 |               [Introducing streams](./Ch04.md)               |    :heavy_check_mark:    |
+| Ch05 |              [Working with streams](./Ch05.md)               |    :heavy_check_mark:    |
+| Ch06 |          [Collecting data with streams](./Ch06.md)           | :hourglass_flowing_sand: |
 | Ch07 |    [Parallel data processing and performance](./Ch07.md)     |        :no_entry:        |
 |      | **Part III Effective programming with streams and lambdas**  |                          |
 | Ch08 |           [Collection API enhancements](./Ch08.md)           |        :no_entry:        |
