@@ -45,8 +45,8 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 |      |  **Part II Functional-style data processing with streams**   |                          |
 | Ch04 |               [Introducing streams](./Ch04.md)               |    :heavy_check_mark:    |
 | Ch05 |              [Working with streams](./Ch05.md)               |    :heavy_check_mark:    |
-| Ch06 |          [Collecting data with streams](./Ch06.md)           | :hourglass_flowing_sand: |
-| Ch07 |    [Parallel data processing and performance](./Ch07.md)     |        :no_entry:        |
+| Ch06 |          [Collecting data with streams](./Ch06.md)           |    :heavy_check_mark:    |
+| Ch07 |    [Parallel data processing and performance](./Ch07.md)     | :hourglass_flowing_sand: |
 |      | **Part III Effective programming with streams and lambdas**  |                          |
 | Ch08 |           [Collection API enhancements](./Ch08.md)           |        :no_entry:        |
 | Ch09 |       [Refactoring, testing, and debugging](./Ch09.md)       |        :no_entry:        |
