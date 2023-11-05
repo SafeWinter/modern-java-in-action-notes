@@ -48,8 +48,8 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | Ch06 |          [Collecting data with streams](./Ch06.md)           |    :heavy_check_mark:    |
 | Ch07 |    [Parallel data processing and performance](./Ch07.md)     |    :heavy_check_mark:    |
 |      | **Part III Effective programming with streams and lambdas**  |                          |
-| Ch08 |           [Collection API enhancements](./Ch08.md)           | :hourglass_flowing_sand: |
-| Ch09 |       [Refactoring, testing, and debugging](./Ch09.md)       |        :no_entry:        |
+| Ch08 |           [Collection API enhancements](./Ch08.md)           |      :orange_book:       |
+| Ch09 |       [Refactoring, testing, and debugging](./Ch09.md)       | :hourglass_flowing_sand: |
 | Ch10 |     [Domain-specific languages using lambdas](./Ch10.md)     |        :no_entry:        |
 |      |                  **Part IV Everyday Java**                   |                          |
 | Ch11 | [Using Optional as a better alternative to null](./Ch11.md)  |        :no_entry:        |
